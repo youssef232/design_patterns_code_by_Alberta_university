@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78115f81-a6f5-429e-9246-d3918b9a3477" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="78115f81-a6f5-429e-9246-d3918b9a3477" name="Changes" comment="small modification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/Housing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composite/Housing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -166,8 +165,17 @@
       <workItem from="1654104991938" duration="579000" />
       <workItem from="1654720259674" duration="318000" />
       <workItem from="1654759654907" duration="619000" />
-      <workItem from="1654760366301" duration="2711000" />
+      <workItem from="1654760366301" duration="4373000" />
+      <workItem from="1654778319067" duration="454000" />
     </task>
+    <task id="LOCAL-00001" summary="small modification">
+      <created>1654765817912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654765817912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,5 +191,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="small modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="small modification" />
   </component>
 </project>

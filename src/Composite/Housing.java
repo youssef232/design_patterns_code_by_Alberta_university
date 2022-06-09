@@ -7,14 +7,16 @@ public class Housing implements IStructure {
     ArrayList<IStructure> structures;
     private String name;
 
-    public Housing(String name){
-    this.name = name;
+    public Housing(String name) {
+        this.name = name;
         structures = new ArrayList<>();
     }
-    public void addStructure(IStructure structure){
+
+    public void addStructure(IStructure structure) {
         structures.add(structure);
     }
-    public void addStructure(ArrayList<IStructure> structures){
+
+    public void addStructure(ArrayList<IStructure> structures) {
         structures.addAll(structures);
     }
 
@@ -37,11 +39,12 @@ public class Housing implements IStructure {
     public void setStructures(ArrayList<IStructure> structures) {
         this.structures = structures;
     }
+
     public IStructure getStructure(String name) {
         IStructure structure = null;
-        for (IStructure structure1:
-             structures) {
-            if (structure1.getName().equals(name)){
+        for (IStructure structure1 :
+                structures) {
+            if (structure1.getName().equals(name)) {
                 structure = structure1;
                 break;
             }
@@ -51,16 +54,22 @@ public class Housing implements IStructure {
 
     @Override
     public void enter() {
-
+        System.out.println("entry");
     }
 
     @Override
     public void exit() {
-
+        System.out.println("exit");
     }
 
     @Override
     public void location() {
+        System.out.println("you are now in "+ this.getName() +
+                "it has \n");
+        for(IStructure structure:
+        structures){
+            System.out.print(structure.getName() + "\t");
+        }
 
     }
 
